@@ -67,6 +67,11 @@ sudo apt-get remove etcher-electron
 sudo rm /etc/apt/sources.list.d/etcher.list
 sudo apt-get update
 ```
+or 
+```sh
+sudo apt-get autoremove etcher-electron
+
+```
 #### Redhat (RHEL) and Fedora based Package Repository (GNU/Linux x86/x64)
 
 1. Add Etcher rpm repository:
